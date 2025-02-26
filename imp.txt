@@ -1,0 +1,28 @@
+User Database implementation
+
+GET /users - Print all the users first names
+GET /users/:id - Print user details with id
+
+GET /api/users - Print users details 
+GET /api/users/:id - Print users with id
+:id Dynamic path parameter
+
+
+POST /api/users
+
+PUT /api/users/:id
+
+PATCH /api/users/:id
+
+DELETE /api/users/:id
+
+
+
+
+MongoDB
+
+Mongoose Dependency
+
+Schema - Define structure {id,first_name,last_name,email}
+    Schema - Model using the schema a model is created
+    Model - is used for CRUD op
